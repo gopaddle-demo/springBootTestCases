@@ -49,6 +49,7 @@ public class petClinicTest {
 			String filename = filePath.getAbsolutePath();
 			System.setProperty("webdriver.chrome.driver", filename);  
 			driver = new ChromeDriver(chromeOptions);  
+			//driver = new ChromeDriver();  
 			driver.manage().window().maximize();
 			
 		} catch (IOException e) {
