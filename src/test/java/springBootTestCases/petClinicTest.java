@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 import java.io.FileReader;
@@ -38,10 +39,13 @@ public class petClinicTest {
 			p = new Properties();
 			p.load(reader);
 			
+			ChromeOptions chromeOptions = new ChromeOptions();
+			chromeOptions.setHeadless(true);
+			
 			File filePath = new File("src/test/resources/chromedriver_linux64/chromedriver"); //ChromeDriver version ---> ChromeDriver 85.0.4183.83 //chrome version ---> Google Chrome 85.0.4183.102 
 			String filename = filePath.getAbsolutePath();
 			System.setProperty("webdriver.chrome.driver", filename);  
-			driver = new ChromeDriver();  
+			driver = new ChromeDriver(chromeOptions);  
 			driver.manage().window().maximize();
 			
 		} catch (IOException e) {
