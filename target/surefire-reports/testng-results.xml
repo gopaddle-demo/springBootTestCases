@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-04T03:56:21Z" name="ADD OWNER" finished-at="2020-11-04T03:57:40Z" duration-ms="79536">
+  <suite started-at="2020-11-04T04:07:56Z" name="ADD OWNER" finished-at="2020-11-04T04:09:40Z" duration-ms="104033">
     <groups>
     </groups>
-    <test started-at="2020-11-04T03:56:21Z" name="ADD OWNER" finished-at="2020-11-04T03:57:40Z" duration-ms="79536">
+    <test started-at="2020-11-04T04:07:56Z" name="ADD OWNER" finished-at="2020-11-04T04:09:40Z" duration-ms="104033">
       <class name="springBootTestCases.petClinicTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T03:56:21Z" name="init" finished-at="2020-11-04T03:56:50Z" duration-ms="29423" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T04:07:56Z" name="init" finished-at="2020-11-04T04:08:47Z" duration-ms="50885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="ADD_NEW_OWNER()[pri:1, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T03:56:50Z" name="ADD_NEW_OWNER" finished-at="2020-11-04T03:57:01Z" duration-ms="10968" status="PASS">
+        <test-method signature="ADD_NEW_OWNER()[pri:1, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T04:08:47Z" name="ADD_NEW_OWNER" finished-at="2020-11-04T04:08:59Z" duration-ms="11816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ADD_NEW_OWNER -->
-        <test-method signature="EDIT_OWNER()[pri:2, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T03:57:01Z" name="EDIT_OWNER" finished-at="2020-11-04T03:57:04Z" duration-ms="2715" status="PASS">
+        <test-method signature="EDIT_OWNER()[pri:2, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T04:08:59Z" name="EDIT_OWNER" finished-at="2020-11-04T04:09:02Z" duration-ms="2391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EDIT_OWNER -->
-        <test-method signature="ADD_NEW_PET()[pri:3, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T03:57:04Z" name="ADD_NEW_PET" finished-at="2020-11-04T03:57:06Z" duration-ms="2375" status="PASS">
+        <test-method signature="ADD_NEW_PET()[pri:3, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T04:09:02Z" name="ADD_NEW_PET" finished-at="2020-11-04T04:09:06Z" duration-ms="4659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ADD_NEW_PET -->
-        <test-method signature="EDIT_PET()[pri:4, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T03:57:06Z" name="EDIT_PET" finished-at="2020-11-04T03:57:08Z" duration-ms="1847" status="PASS">
+        <test-method signature="EDIT_PET()[pri:4, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T04:09:06Z" name="EDIT_PET" finished-at="2020-11-04T04:09:08Z" duration-ms="1790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EDIT_PET -->
-        <test-method signature="LIST_OWNER()[pri:6, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T03:57:08Z" name="LIST_OWNER" finished-at="2020-11-04T03:57:09Z" duration-ms="1226" status="PASS">
+        <test-method signature="LIST_OWNER()[pri:6, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T04:09:08Z" name="LIST_OWNER" finished-at="2020-11-04T04:09:10Z" duration-ms="1594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LIST_OWNER -->
-        <test-method signature="LIST_VETERINARIANS()[pri:7, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T03:57:09Z" name="LIST_VETERINARIANS" finished-at="2020-11-04T03:57:10Z" duration-ms="640" status="PASS">
+        <test-method signature="LIST_VETERINARIANS()[pri:7, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T04:09:10Z" name="LIST_VETERINARIANS" finished-at="2020-11-04T04:09:10Z" duration-ms="643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LIST_VETERINARIANS -->
-        <test-method is-config="true" signature="CLOSE_CHROME_WINDOW()[pri:0, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T03:57:10Z" name="CLOSE_CHROME_WINDOW" finished-at="2020-11-04T03:57:40Z" duration-ms="30244" status="PASS">
+        <test-method is-config="true" signature="CLOSE_CHROME_WINDOW()[pri:0, instance:springBootTestCases.petClinicTest@314c508a]" started-at="2020-11-04T04:09:10Z" name="CLOSE_CHROME_WINDOW" finished-at="2020-11-04T04:09:40Z" duration-ms="30117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CLOSE_CHROME_WINDOW -->

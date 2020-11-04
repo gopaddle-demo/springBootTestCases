@@ -41,6 +41,9 @@ public class petClinicTest {
 			
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.setHeadless(true);
+			chromeOptions.addArguments("--remote-debugging-port=9222");
+			chromeOptions.addArguments("--no-sandbox");
+			chromeOptions.addArguments("--disable-dev-shm-usage");
 			
 			File filePath = new File("src/test/resources/chromedriver_linux64/chromedriver"); //ChromeDriver version ---> ChromeDriver 85.0.4183.83 //chrome version ---> Google Chrome 85.0.4183.102 
 			String filename = filePath.getAbsolutePath();
